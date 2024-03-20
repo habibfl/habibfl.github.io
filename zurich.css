@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto' , sans-serif;
+   }
+  header{
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/15/23/13/city-724850_1280.jpg);
+    font-family:'roboto' , sans-serif;
+   height: 430vh;
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     padding-left: 8%;
+     padding-right: 8%;
+     box-sizing: border-box;
+   }
+   
+
+
+  .navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+ }
+ 
+ .logo a{
+    padding: 10px 20px;
+    border: 0 solid burlywood;
+    position: absolute;
+    font-weight: 900;
+    top: 10px;
+    text-shadow: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    left: 10px;
+     cursor: pointer;
+     color: floralwhite;
+     transition: 0.8s ease;
+     border-radius: 20px;
+    }
+    .logo span{
+      color: floralwhite;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+    .logo a:hover{
+     background: burlywood;
+     color: floralwhite;
+    }
+    .logo a:active a{
+     background: burlywood;
+     color: floralwhite;
+    }
+    
+  
+ 
+ nav a{
+   font-size: 15px;
+     text-transform: uppercase;
+     color: floralwhite;
+     text-decoration: none;
+     line-height: 50px;
+     position: relative;
+     z-index: 1;
+     display: inline-block;
+     text-align: center;
+  }
+  ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    padding-left: 350px;
+    
+   
+   margin: -100;
+   }
+   ul li a{
+    text-decoration: none;
+    color: floralwhite;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    border: 0 solid burlywood;
+    margin: 10px;
+   font-weight: 500;
+   transition: 0.8s ease;
+   font-size: 14px;
+   outline: none;
+   margin-top: 30px;
+   border-radius: 20px;
+   
+   }
+   ul li a:hover{
+    background: burlywood;
+    color: floralwhite;
+   }
+   ul li a:active a{
+    background: burlywood;
+    color: floralwhite;
+   }
+ 
+ .row{
+   display: flex;
+   height: 88%;
+   align-items: center;
+ }
+ 
+ .col{
+   flex-basis: 50%;
+ }
+ 
+ h1{
+  color: floralwhite;
+  font-size: 90px;
+ }
+ h2{
+    color: floralwhite;
+    font-size: 50px;
+   }
+
+ 
+ .border-top {
+    border-top: none;
+    margin-top: 1%;
+}
+
+.image1 {
+    float: left;
+    margin: 0 20px 5px 0;
+    shape-outside: margin-box;
+    height: 319px;
+    border-radius: 20px;
+}
+
+.image2 {
+    float: right;
+    margin: 0 5px 20px 0;
+    shape-outside: margin-box;
+    height: 100%;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 20px;
+}
+.image3 {
+    float: right;
+    margin: 0 5px 20px 0;
+    shape-outside: margin-box;
+    height: 100%;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.image4 {
+    float: left;
+    margin: 0 5px 20px 0;
+    shape-outside: margin-box;
+    height: 100%;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 20px;
+}
+p {
+    color: floralwhite;
+    -webkit-text-stroke: 0;
+    font-family: 'roboto' , sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+.text1 {
+    font-size: 50px;
+    transform: translate(5%, 40%);
+    -webkit-text-stroke: floralwhite;
+    cursor: pointer;
+    transition: all .4s ease;
+    margin-top: 0;
+    margin-bottom: 55px;
+    font-family: 'roboto' , sans-serif;
+    color: floralwhite;
+    -webkit-text-stroke: 1px #fff;
+    
+    animation: back 20s linear infinite;
+}
+
+.text1:hover:hover {
+    color: floralwhite;
+    -webkit-text-stroke: 0;
+}
+
+
+
+nav a:nth-child(1) {
+    width: 100px;
+}
+
+nav .start-home,
+a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+}
+
+nav a:nth-child(2) {
+    width: 110px;
+}
+
+nav a:nth-child(2):hover~.animation {
+    width: 110px;
+    left: 100px;
+}
+
+nav a:nth-child(3) {
+    width: 100px;
+}
+
+nav a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 210px;
+}
+
+nav a:nth-child(4) {
+    width: 160px;
+}
+
+nav a:nth-child(4):hover~.animation {
+    width: 160px;
+    left: 310px;
+}
+
+nav a:nth-child(5) {
+    width: 120px;
+}
+
+nav a:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 470px;
+}
+
+
+* {
+    font-family: 'roboto' , sans-serif;
+    margin: 0;
+}
+
+ 

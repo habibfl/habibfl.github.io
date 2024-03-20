@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+}
+
+img {
+    float: left;
+    width: 900px;
+    height: 300px;
+    object-fit: cover;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+}
+
+.text-box {
+    color: #fff;
+    position: absolute;
+    bottom: 8%;
+}
+
+.text-box p {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.text-box h1 {
+    width: 1000px;
+    display: flex;
+    margin-left: 20%;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    animation: back 20s linear infinite;
+    font-size: 80px;
+}
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0
+    }
+}
+
+.tex {
+    margin-bottom: 10px;
+}
+
+#slideImg {
+    width: 100%;
+    height: 100vh;
+    animation: zoom 3s linear infinite;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1.3);
+    }
+    15% {
+        transform: scale(1);
+    }
+    85% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.3);
+    }
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+}
+
+button:hover {
+    background-color: rgb(249, 55, 55);
+}
+
+a {
+    color: white;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #e8e6f0;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background 0.5s;
+    margin-left: 60%;
+    margin-top: 100px;
+    margin-bottom: 30%;
+    position: relative;
+    overflow: hidden;
+}
